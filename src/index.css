@@ -1,0 +1,62 @@
+:root {
+  /* Color Palette */
+  --color-turquoise: #00A4A6;
+  --color-sand: #F4D49A;
+  --color-lime: #8BC34A;
+  --color-midnight: #003E5A;
+  --color-white: #ffffff;
+  --color-light-sand: #fbf6ec; /* Lighter version for backgrounds */
+  --color-pale-turquoise: #e0f7f7; /* Lighter version for backgrounds */
+
+  /* Typography */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Layout */
+  --container-width: 1200px;
+  --header-height: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-midnight);
+  background-color: var(--color-white);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  margin-top: 0;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-midnight);
+}
+
+a {
+  color: var(--color-turquoise);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-midnight);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
+/* Utilities */
+.text-center { text-align: center; }
+.section { padding: var(--spacing-lg) 0; }
+.bg-sand { background-color: var(--color-light-sand); }
+.bg-turquoise { background-color: var(--color-pale-turquoise); }

@@ -1,0 +1,229 @@
+.featuresSection {
+    padding: var(--spacing-lg) 0;
+    background-color: var(--color-light-sand);
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-turquoise);
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sectionTitle::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-lime);
+    margin: var(--spacing-xs) auto 0;
+}
+
+.reasonsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.reasonCard {
+    background: var(--color-white);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.reasonCard:hover {
+    transform: translateY(-5px);
+}
+
+.stepsSection {
+    padding: var(--spacing-lg) 0;
+    background-color: var(--color-white);
+}
+
+.step {
+    display: flex;
+    margin-bottom: var(--spacing-md);
+    align-items: flex-start;
+}
+
+.stepNumber {
+    background-color: var(--color-turquoise);
+    color: var(--color-white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: var(--spacing-md);
+    flex-shrink: 0;
+}
+
+.testimonialsSection {
+    padding: var(--spacing-lg) 0;
+    background-color: var(--color-pale-turquoise);
+}
+
+.testimonialGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.testimonialCard {
+    background: var(--color-white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.testimonialImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.testimonialContent {
+    padding: var(--spacing-md);
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: var(--spacing-sm);
+    color: #555;
+    font-size: 1.05rem;
+}
+
+.ctaSection {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-midnight);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.ctaForm {
+    background-color: var(--color-white);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    max-width: 600px;
+    margin: var(--spacing-md) auto 0;
+    color: var(--color-midnight);
+    text-align: left;
+}
+
+.formGroup {
+    margin-bottom: var(--spacing-sm);
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.submitButton {
+    width: 100%;
+    background-color: var(--color-lime);
+    color: var(--color-white);
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.submitButton:hover {
+    background-color: #7cb342;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+}
+
+/* FAQ Section */
+.faqSection {
+    padding: var(--spacing-lg) 0;
+    background-color: var(--color-light-sand);
+}
+
+.faqContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faqItem {
+    background: var(--color-white);
+    margin-bottom: var(--spacing-sm);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.faqQuestion {
+    width: 100%;
+    text-align: left;
+    padding: var(--spacing-md);
+    background: none;
+    border: none;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-midnight);
+}
+
+.faqQuestion:hover {
+    background-color: rgba(0, 164, 166, 0.05);
+}
+
+.faqAnswer {
+    padding: 0 var(--spacing-md) var(--spacing-md);
+    color: #555;
+    line-height: 1.6;
+    border-top: 1px solid #eee;
+}
+
+.introSection {
+    padding: var(--spacing-lg) 0;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.introText {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: var(--spacing-md);
+}
+
+.divider {
+    width: 100px;
+    height: 4px;
+    background-color: var(--color-turquoise);
+    margin: var(--spacing-md) auto;
+    border-radius: 2px;
+}
