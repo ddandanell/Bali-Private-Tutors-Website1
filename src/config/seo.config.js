@@ -6,7 +6,7 @@
 export const SEO_CONFIG = {
   // Site-wide constants
   siteName: 'Bali Private Tutors',
-  siteUrl: 'https://baliprivatetutors.com',
+  siteUrl: 'https://baliprivatetutors.store',
   defaultTitle: 'Bali Private Tutors | International Curriculum Experts in Ubud, Canggu & Seminyak',
   defaultDescription: 'Expert private tutors in Bali for IB, IGCSE, A-Levels, and international curricula. Villa-based tutoring for expat families in Ubud, Canggu, Seminyak, and Sanur.',
   defaultKeywords: 'private tutor Bali, villa tutoring Bali, expat tutoring Bali, international curriculum tutor Bali, IB tutor Bali, IGCSE tutor Bali',
@@ -50,7 +50,7 @@ export const SEO_CONFIG = {
 
   // Contact information (update with actual contact details)
   contact: {
-    email: 'info@baliprivatetutors.com',
+    email: 'info@baliprivatetutors.store',
     // whatsapp: '+62-xxx-xxx-xxxx' // Add when WhatsApp business number is set up
   }
 };

@@ -20,8 +20,8 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:info@baliprivatetutors.com">
-                                <Mail size={18} /> info@baliprivatetutors.com
+                            <a href="mailto:info@baliprivatetutors.store">
+                                <Mail size={18} /> info@baliprivatetutors.store
                             </a>
                         </li>
                         <li>

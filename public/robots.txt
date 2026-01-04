@@ -1,5 +1,5 @@
 # Robots.txt for Bali Private Tutors
-# https://baliprivatetutors.com/robots.txt
+# https://baliprivatetutors.store/robots.txt
 
 User-agent: *
 Allow: /
@@ -8,4 +8,4 @@ Allow: /
 # (Add API routes here if they exist in the future)
 
 # Sitemap location
-Sitemap: https://baliprivatetutors.com/sitemap.xml
+Sitemap: https://baliprivatetutors.store/sitemap.xml
