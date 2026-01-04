@@ -132,7 +132,7 @@ The following image files need to be created and added to the `/public` folder:
 
 1. **Google Rich Results Test:**
    - Visit: https://search.google.com/test/rich-results
-   - Enter: https://baliprivatetutors.com
+   - Enter: https://baliprivatetutors.store
    - Verify structured data is detected correctly
 
 2. **Open Graph Debugger (Facebook):**
