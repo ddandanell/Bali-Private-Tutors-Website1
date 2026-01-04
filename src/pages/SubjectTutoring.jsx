@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css'; // Reusing Home styles for consistency
 import heroImage from '../assets/hero_subjects.png';
@@ -7,12 +7,12 @@ import heroImage from '../assets/hero_subjects.png';
 const SubjectTutoring = () => {
     return (
         <>
-            <Helmet>
-                <title>Subject Tutoring in Bali – Math, Science, English & Languages | Private Tutors</title>
-                <meta name="description" content="Expert private tutoring in Bali for Mathematics, Sciences (Physics, Chemistry, Biology), English Literature, and Foreign Languages. Tailored support for IB, IGCSE, and A-Level students." />
-                <meta name="keywords" content="Math tutor Bali, Science tutor Bali, English tutor Bali, French tutor Bali, Mandarin tutor Bali, IB Math tutor, IGCSE Science tutor" />
-                <link rel="canonical" href="https://baliprivatetutors.com/subject-tutoring" />
-            </Helmet>
+            <SEO
+                title="Subject Tutoring in Bali | Math, Science, English & Languages - Bali Private Tutors"
+                description="Expert private tutoring in Bali for Mathematics, Sciences (Physics, Chemistry, Biology), English Literature, and Foreign Languages. Tailored support for IB, IGCSE, and A-Level students."
+                keywords="Math tutor Bali, Science tutor Bali, English tutor Bali, French tutor Bali, Mandarin tutor Bali, IB Math tutor, IGCSE Science tutor"
+                path="/subject-tutoring"
+            />
 
             <Hero
                 title="Subject Tutoring Excellence"

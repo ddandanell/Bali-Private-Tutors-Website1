@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css'; // Reusing Home styles
 import heroImage from '../assets/hero_blog.png';
@@ -26,12 +26,13 @@ const BlogPost = ({ title, date, author, category, children }) => (
 const Blog = () => {
     return (
         <>
-            <Helmet>
-                <title>Education in Bali Blog – Tips for Expat Families & Homeschoolers</title>
-                <meta name="description" content="Read our latest guides on choosing international schools in Bali, homeschooling tips, and learning Indonesian for expat kids." />
-                <meta name="keywords" content="Bali education blog, Bali international schools guide, homeschooling in Bali blog, expat study tips" />
-                <link rel="canonical" href="https://baliprivatetutors.com/blog" />
-            </Helmet>
+            <SEO
+                title="Education in Bali Blog | Tips for Expat Families & Homeschoolers"
+                description="Read our latest guides on choosing international schools in Bali, homeschooling tips, and learning Indonesian for expat kids. Expert advice for families living in Bali."
+                keywords="Bali education blog, Bali international schools guide, homeschooling in Bali blog, expat study tips"
+                path="/blog"
+                type="blog"
+            />
 
             <Hero
                 title="The Bali Learning Log"

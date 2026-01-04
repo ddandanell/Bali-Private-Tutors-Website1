@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
+import { generateLocalBusinessSchema } from '../config/seo.config';
 import Hero from '../components/Hero';
 import styles from './Home.module.css';
 import heroImage from '../assets/hero.png';
@@ -23,12 +24,13 @@ const FAQItem = ({ question, answer }) => {
 const Home = () => {
     return (
         <>
-            <Helmet>
-                <title>Private Tutors in Bali – Villa Learning Services & International Curriculum Experts</title>
-                <meta name="description" content="Find qualified private tutors in Bali for math, languages, science and test preparation. Our tutors come to your villa, follow international curricula (IB, IGCSE, AP) and tailor lessons for expat families. Book a free consultation today." />
-                <meta name="keywords" content="private tutor Bali, villa tutoring Bali, expat tutoring Bali, Bali private tutors, international curriculum tutor Bali, IB tutor Bali, IGCSE tutor Bali" />
-                <link rel="canonical" href="https://baliprivatetutors.com/" />
-            </Helmet>
+            <SEO
+                title="Private Tutors in Bali | Villa Learning Services & International Curriculum Experts"
+                description="Find qualified private tutors in Bali for math, languages, science and test preparation. Our tutors come to your villa, follow international curricula (IB, IGCSE, AP) and tailor lessons for expat families."
+                keywords="private tutor Bali, villa tutoring Bali, expat tutoring Bali, Bali private tutors, international curriculum tutor Bali, IB tutor Bali, IGCSE tutor Bali"
+                path="/"
+                structuredData={generateLocalBusinessSchema()}
+            />
 
             <Hero
                 title="Private Tutors in Bali"
