@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css'; // Reusing Home styles
 import heroImage from '../assets/hero_curricula.png';
@@ -7,12 +7,12 @@ import heroImage from '../assets/hero_curricula.png';
 const CurriculaSupport = () => {
     return (
         <>
-            <Helmet>
-                <title>Curricula Support in Bali – IB, IGCSE, A-Levels & Homeschooling | Bali Private Tutors</title>
-                <meta name="description" content="Comprehensive academic support for International Baccalaureate (IB PYP, MYP, DP), Cambridge IGCSE, A-Levels, Australian Curriculum, and US Common Core. Tailored for expat students in Bali." />
-                <meta name="keywords" content="IB tutor Bali, IGCSE tutor Bali, A-Level tutor Bali, Australian Curriculum tutor, Homeschooling Bali, US Common Core tutor" />
-                <link rel="canonical" href="https://baliprivatetutors.com/curricula-support" />
-            </Helmet>
+            <SEO
+                title="Curricula Support in Bali | IB, IGCSE, A-Levels & Homeschooling - Bali Private Tutors"
+                description="Comprehensive academic support for International Baccalaureate (IB PYP, MYP, DP), Cambridge IGCSE, A-Levels, Australian Curriculum, and US Common Core. Tailored for expat students in Bali."
+                keywords="IB tutor Bali, IGCSE tutor Bali, A-Level tutor Bali, Australian Curriculum tutor, Homeschooling Bali, US Common Core tutor"
+                path="/curricula-support"
+            />
 
             <Hero
                 title="International Curricula Experts"

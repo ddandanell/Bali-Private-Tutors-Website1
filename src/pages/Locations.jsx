@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css'; // Reusing Home styles
 import heroImage from '../assets/hero_locations.png';
@@ -7,12 +7,12 @@ import heroImage from '../assets/hero_locations.png';
 const Locations = () => {
     return (
         <>
-            <Helmet>
-                <title>Private Tutors in Bali Locations – Seminyak, Canggu, Ubud, Sanur & Uluwatu</title>
-                <meta name="description" content="Find the best private tutors near you in Bali. We serve families in Seminyak, Canggu, Ubud, Sanur, Uluwatu, and Jimbaran. Villa-based tuition and homeschooling support." />
-                <meta name="keywords" content="Tutor Seminyak, Tutor Canggu, Tutor Ubud, Tutor Sanur, Tutor Uluwatu, Bali private tuition locations" />
-                <link rel="canonical" href="https://baliprivatetutors.com/locations" />
-            </Helmet>
+            <SEO
+                title="Private Tutors in Bali Locations | Seminyak, Canggu, Ubud, Sanur & Uluwatu"
+                description="Find the best private tutors near you in Bali. We serve families in Seminyak, Canggu, Ubud, Sanur, Uluwatu, and Jimbaran. Villa-based tuition and homeschooling support."
+                keywords="Tutor Seminyak, Tutor Canggu, Tutor Ubud, Tutor Sanur, Tutor Uluwatu, Bali private tuition locations"
+                path="/locations"
+            />
 
             <Hero
                 title="We Come to Your Villa"

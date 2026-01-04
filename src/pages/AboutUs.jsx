@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css'; // Reusing Home styles
 import heroImage from '../assets/hero_about.png';
@@ -7,12 +7,12 @@ import heroImage from '../assets/hero_about.png';
 const AboutUs = () => {
     return (
         <>
-            <Helmet>
-                <title>About Bali Private Tutors – Our Mission, Values & Tutor Vetting Process</title>
-                <meta name="description" content="Meet the team behind Bali Private Tutors. Learn about our rigorous tutor vetting process, our commitment to educational excellence, and why expat families trust us." />
-                <meta name="keywords" content="About Bali Private Tutors, education consultants Bali, tutor vetting Bali, expat education support" />
-                <link rel="canonical" href="https://baliprivatetutors.com/about-us" />
-            </Helmet>
+            <SEO
+                title="About Bali Private Tutors | Our Mission, Values & Tutor Vetting Process"
+                description="Meet the team behind Bali Private Tutors. Learn about our rigorous tutor vetting process, our commitment to educational excellence, and why expat families trust us."
+                keywords="About Bali Private Tutors, education consultants Bali, tutor vetting Bali, expat education support"
+                path="/about-us"
+            />
 
             <Hero
                 title="More Than Just Tutors"
