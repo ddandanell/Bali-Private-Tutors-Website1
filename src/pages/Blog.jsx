@@ -28,7 +28,7 @@ const Blog = () => {
         <>
             <SEO
                 title="Education in Bali Blog | Tips for Expat Families & Homeschoolers"
-                description="Read our latest guides on choosing international schools in Bali, homeschooling tips, and learning Indonesian for expat kids. Expert advice for families living in Bali."
+                description="Read our latest guides on choosing international schools in Bali, homeschooling tips, and learning Indonesian for expat families."
                 keywords="Bali education blog, Bali international schools guide, homeschooling in Bali blog, expat study tips"
                 path="/blog"
                 type="blog"

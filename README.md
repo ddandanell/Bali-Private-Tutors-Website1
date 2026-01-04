@@ -151,7 +151,7 @@ This website includes comprehensive SEO optimization:
 
 ### 📚 Documentation
 - See [SEO_IMPLEMENTATION.md](./SEO_IMPLEMENTATION.md) for detailed SEO documentation
-- Test SEO config with: `node scripts/test-seo-config.js`
+- Test SEO config with: `node scripts/test-seo-config.mjs`
 
 ### 🎯 Next Steps for Full SEO
 1. Add favicon images to `/public` (see `/public/FAVICON_SETUP.md`)

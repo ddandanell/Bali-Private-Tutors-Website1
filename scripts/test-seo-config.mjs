@@ -1,6 +1,6 @@
 /**
  * SEO Configuration Test
- * Run with: node scripts/test-seo-config.js
+ * Run with: node scripts/test-seo-config.mjs
  */
 
 import { SEO_CONFIG, generatePageMeta, generateLocalBusinessSchema } from '../src/config/seo.config.js';

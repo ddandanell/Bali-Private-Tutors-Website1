@@ -42,16 +42,16 @@ export const SEO_CONFIG = {
     logo: '/logo.png'
   },
 
-  // Social media profiles
+  // Social media profiles (update with actual URLs when available)
   social: {
-    twitter: '@baliprivatetutors', // Update with actual handle if exists
-    facebook: 'https://facebook.com/baliprivatetutors', // Update with actual URL if exists
+    // twitter: '@baliprivatetutors', // Add when Twitter account is created
+    // facebook: 'https://facebook.com/baliprivatetutors', // Add when Facebook page is created
   },
 
-  // Contact information
+  // Contact information (update with actual contact details)
   contact: {
     email: 'info@baliprivatetutors.com',
-    whatsapp: '+62-xxx-xxx-xxxx' // Update with actual number
+    // whatsapp: '+62-xxx-xxx-xxxx' // Add when WhatsApp business number is set up
   }
 };
 
