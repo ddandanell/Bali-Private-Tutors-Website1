@@ -13,6 +13,9 @@ import HomeschoolingSupport from './pages/HomeschoolingSupport';
 import MathTutoring from './pages/MathTutoring';
 import EnglishTutoring from './pages/EnglishTutoring';
 import TestPreparation from './pages/TestPreparation';
+import PrimarySchoolTutoring from './pages/PrimarySchoolTutoring';
+import ALevelTutoring from './pages/ALevelTutoring';
+import OnlineTutoring from './pages/OnlineTutoring';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
         <Route path="/math-tutoring" element={<MathTutoring />} />
         <Route path="/english-tutoring" element={<EnglishTutoring />} />
         <Route path="/test-preparation" element={<TestPreparation />} />
+        <Route path="/primary-school-tutoring" element={<PrimarySchoolTutoring />} />
+        <Route path="/a-level-tutoring" element={<ALevelTutoring />} />
+        <Route path="/online-tutoring" element={<OnlineTutoring />} />
         <Route path="/contact" element={<Home />} /> {/* Just linking back to Home contact for now */}
       </Routes>
     </Layout>
