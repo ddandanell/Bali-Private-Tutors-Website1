@@ -1,18 +1,24 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Phone, Menu, X } from 'lucide-react';
+import { Facebook, Instagram, Phone, Menu, X, ChevronDown } from 'lucide-react';
 import styles from './Header.module.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const toggleServices = () => setIsServicesOpen(!isServicesOpen);
+  const closeAll = () => {
+    setIsMenuOpen(false);
+    setIsServicesOpen(false);
+  };
 
   return (
     <header className={styles.header}>
       <div className={`container ${styles.container}`}>
         <div className={styles.logo}>
-          <Link to="/">
+          <Link to="/" onClick={closeAll}>
             {/* Placeholder for Logo, using text for now */}
             <span className={styles.logoText}>Bali Private Tutors</span>
           </Link>
@@ -21,13 +27,34 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className={`${styles.nav} ${isMenuOpen ? styles.open : ''}`}>
           <ul className={styles.navList}>
-            <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-            <li><Link to="/subject-tutoring" onClick={toggleMenu}>Subject Tutoring</Link></li>
-            <li><Link to="/curricula-support" onClick={toggleMenu}>Curricula Support</Link></li>
-            <li><Link to="/locations" onClick={toggleMenu}>Locations</Link></li>
-            <li><Link to="/about-us" onClick={toggleMenu}>About Us</Link></li>
-            <li><Link to="/blog" onClick={toggleMenu}>Blog</Link></li>
-            <li><Link to="/contact" className={styles.ctaButton} onClick={toggleMenu}>Contact</Link></li>
+            <li><Link to="/" onClick={closeAll}>Home</Link></li>
+            
+            {/* Services Dropdown */}
+            <li className={styles.dropdown}>
+              <button onClick={toggleServices} className={styles.dropdownToggle}>
+                Services <ChevronDown size={16} />
+              </button>
+              {isServicesOpen && (
+                <ul className={styles.dropdownMenu}>
+                  <li><Link to="/subject-tutoring" onClick={closeAll}>Subject Tutoring</Link></li>
+                  <li><Link to="/curricula-support" onClick={closeAll}>Curricula Support</Link></li>
+                  <li><Link to="/ib-tutoring" onClick={closeAll}>IB Tutoring</Link></li>
+                  <li><Link to="/igcse-tutoring" onClick={closeAll}>IGCSE Tutoring</Link></li>
+                  <li><Link to="/a-level-tutoring" onClick={closeAll}>A-Level Tutoring</Link></li>
+                  <li><Link to="/math-tutoring" onClick={closeAll}>Math Tutoring</Link></li>
+                  <li><Link to="/english-tutoring" onClick={closeAll}>English Tutoring</Link></li>
+                  <li><Link to="/test-preparation" onClick={closeAll}>Test Preparation</Link></li>
+                  <li><Link to="/primary-school-tutoring" onClick={closeAll}>Primary School</Link></li>
+                  <li><Link to="/homeschooling-support" onClick={closeAll}>Homeschooling</Link></li>
+                  <li><Link to="/online-tutoring" onClick={closeAll}>Online Tutoring</Link></li>
+                </ul>
+              )}
+            </li>
+            
+            <li><Link to="/locations" onClick={closeAll}>Locations</Link></li>
+            <li><Link to="/about-us" onClick={closeAll}>About Us</Link></li>
+            <li><Link to="/blog" onClick={closeAll}>Blog</Link></li>
+            <li><Link to="/contact" className={styles.ctaButton} onClick={closeAll}>Contact</Link></li>
           </ul>
         </nav>
 

@@ -46,6 +46,58 @@
     color: var(--color-turquoise);
 }
 
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdownToggle {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-midnight);
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0;
+}
+
+.dropdownToggle:hover {
+    color: var(--color-turquoise);
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: var(--spacing-sm) 0;
+    list-style: none;
+    min-width: 200px;
+    margin-top: 0.5rem;
+    z-index: 1001;
+}
+
+.dropdownMenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdownMenu a {
+    display: block;
+    padding: 0.5rem var(--spacing-md);
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.dropdownMenu a:hover {
+    background-color: var(--color-mint);
+}
+
 .ctaButton {
     background-color: var(--color-lime);
     color: var(--color-white) !important;
@@ -108,6 +160,23 @@
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-sm);
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdownToggle {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .dropdownMenu {
+        position: static;
+        box-shadow: none;
+        background-color: var(--color-mint);
+        border-radius: 4px;
+        margin-top: 0.5rem;
     }
 
     .socials {
