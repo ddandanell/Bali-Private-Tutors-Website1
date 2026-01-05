@@ -50,6 +50,17 @@ const Footer = () => {
                         <a href="https://wa.me/6281234567890" aria-label="WhatsApp"><Phone /></a>
                     </div>
                 </div>
+
+                <div className={styles.column}>
+                    <h4>Our Partners</h4>
+                    <ul className={styles.linkList}>
+                        <li>
+                            <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer">
+                                Premier Private Tutoring Bali
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div className={styles.copyright}>
                 <p>&copy; {new Date().getFullYear()} Bali Private Tutors. All rights reserved.</p>
