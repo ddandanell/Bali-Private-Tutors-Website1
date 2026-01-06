@@ -27,7 +27,7 @@ const AboutUs = () => {
                     <h2 className={styles.sectionTitle}>Our Ethos: Education Without Borders</h2>
                     <div className={styles.divider}></div>
                     <p className={styles.introText}>
-                        Bali Private Tutors was founded on a simple yet powerful belief: impeccable education should be accessible anywhere. As digital nomad families and global citizens flock to Bali, they bring with them a desire for a lifestyle that balances tropical freedom with academic rigor.
+                        Bali Private Tutors was founded on a simple yet powerful belief: impeccable education should be accessible anywhere. As digital nomad families and global citizens flock to Bali, they bring with them a desire for a lifestyle that balances tropical freedom with academic rigor. Learn more about our comprehensive <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>private tutoring services in Bali</a>.
                     </p>
                     <p>
                         We recognized a gap in the market. Local schools were often overcrowded or culturally specific, while international schools came with exorbitant fees and rigid schedules. We created a third option: a premium, personalized, and professional tutoring service that brings the classroom to your villa. We are not an agency that simply swaps contact details; we are an educational consultancy that proactively manages your child's learning journey.
