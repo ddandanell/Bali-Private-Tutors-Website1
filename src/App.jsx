@@ -7,6 +7,7 @@ import CurriculaSupport from './pages/CurriculaSupport';
 import Locations from './pages/Locations';
 import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
+import IBTutoring from './pages/IBTutoring';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Home />} /> {/* Just linking back to Home contact for now */}
+        <Route path="/ib-tutoring-bali" element={<IBTutoring />} />
       </Routes>
     </Layout>
   );
