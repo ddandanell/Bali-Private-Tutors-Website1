@@ -227,3 +227,30 @@
     margin: var(--spacing-md) auto;
     border-radius: 2px;
 }
+/* Large CTA Button */
+.largeCtaButton {
+    display: inline-block;
+    background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+    color: white;
+    padding: 20px 50px;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(78, 205, 196, 0.4);
+    border: none;
+    cursor: pointer;
+}
+
+.largeCtaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(78, 205, 196, 0.5);
+}
+
+@media (max-width: 768px) {
+    .largeCtaButton {
+        padding: 16px 35px;
+        font-size: 18px;
+    }
+}

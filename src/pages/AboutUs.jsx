@@ -106,6 +106,9 @@ const AboutUs = () => {
                             <p style={{ marginTop: '20px' }}>
                                 We decided to pool our resources. We created a standardized system for curriculum delivery that allowed students to get the "best of both worlds"—the flexibility of home learning with the rigorous standards of a top-tier school. Today, we support over 50 families across the island, from short-term holiday visitors to long-term residents preparing for university entrance.
                             </p>
+                            <p style={{ marginTop: '20px', backgroundColor: '#f9f9f9', padding: '15px', borderLeft: '4px solid var(--color-turquoise)' }}>
+                                <strong>Looking for general private tutoring outside of the IB curriculum?</strong> While we specialize in international curriculum support, we recommend our partners at <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a> for comprehensive educational support across all subjects and levels.
+                            </p>
                         </div>
                     </div>
                 </div>
