@@ -8,6 +8,14 @@ import Locations from './pages/Locations';
 import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
 import IBTutoring from './pages/IBTutoring';
+import IGCSETutoring from './pages/IGCSETutoring';
+import HomeschoolingSupport from './pages/HomeschoolingSupport';
+import MathTutoring from './pages/MathTutoring';
+import EnglishTutoring from './pages/EnglishTutoring';
+import TestPreparation from './pages/TestPreparation';
+import PrimarySchoolTutoring from './pages/PrimarySchoolTutoring';
+import ALevelTutoring from './pages/ALevelTutoring';
+import OnlineTutoring from './pages/OnlineTutoring';
 import InternationalSchoolTutoring from './pages/InternationalSchoolTutoring';
 import SATPrep from './pages/SATPrep';
 import APTutoring from './pages/APTutoring';
@@ -28,6 +36,16 @@ function App() {
         <Route path="/locations" element={<Locations />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/ib-tutoring" element={<IBTutoring />} />
+        <Route path="/igcse-tutoring" element={<IGCSETutoring />} />
+        <Route path="/homeschooling-support" element={<HomeschoolingSupport />} />
+        <Route path="/math-tutoring" element={<MathTutoring />} />
+        <Route path="/english-tutoring" element={<EnglishTutoring />} />
+        <Route path="/test-preparation" element={<TestPreparation />} />
+        <Route path="/primary-school-tutoring" element={<PrimarySchoolTutoring />} />
+        <Route path="/a-level-tutoring" element={<ALevelTutoring />} />
+        <Route path="/online-tutoring" element={<OnlineTutoring />} />
+        <Route path="/contact" element={<Home />} /> {/* Just linking back to Home contact for now */}
         <Route path="/contact" element={<Home />} />
         
         {/* New Landing Pages */}
