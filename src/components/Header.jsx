@@ -22,12 +22,33 @@ const Header = () => {
         <nav className={`${styles.nav} ${isMenuOpen ? styles.open : ''}`}>
           <ul className={styles.navList}>
             <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-            <li><Link to="/subject-tutoring" onClick={toggleMenu}>Subject Tutoring</Link></li>
-            <li><Link to="/curricula-support" onClick={toggleMenu}>Curricula Support</Link></li>
-            <li><Link to="/locations" onClick={toggleMenu}>Locations</Link></li>
-            <li><Link to="/about-us" onClick={toggleMenu}>About Us</Link></li>
-            <li><Link to="/blog" onClick={toggleMenu}>Blog</Link></li>
-            <li><Link to="/contact" className={styles.ctaButton} onClick={toggleMenu}>Contact</Link></li>
+            <li><Link to="/ib-tutoring-bali" onClick={toggleMenu}>IB Tutoring</Link></li>
+            <li><Link to="/international-school-tutoring-bali" onClick={toggleMenu}>International School Support</Link></li>
+            <li><Link to="/sat-prep-bali" onClick={toggleMenu}>SAT Prep</Link></li>
+            <li><Link to="/ap-tutoring-bali" onClick={toggleMenu}>AP Tutoring</Link></li>
+            <li><Link to="/igcse-tutoring-bali" onClick={toggleMenu}>IGCSE Tutoring</Link></li>
+            <li className={styles.dropdown}>
+              <button className={styles.dropdownToggle}>Subjects</button>
+              <ul className={styles.dropdownMenu}>
+                <li><Link to="/math-tutor-bali" onClick={toggleMenu}>Math</Link></li>
+                <li><Link to="/english-tutoring-bali" onClick={toggleMenu}>English</Link></li>
+                <li><Link to="/subject-tutoring#sciences" onClick={toggleMenu}>Sciences</Link></li>
+                <li><Link to="/subject-tutoring#languages" onClick={toggleMenu}>Languages</Link></li>
+              </ul>
+            </li>
+            <li><Link to="/online-tutoring-bali" onClick={toggleMenu}>Online Tutoring</Link></li>
+            <li><Link to="/homeschooling-support-bali" onClick={toggleMenu}>Homeschooling</Link></li>
+            <li>
+              <a 
+                href="https://privatetutoringbali.com/" 
+                className={styles.ctaButton} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={toggleMenu}
+              >
+                Find a Tutor
+              </a>
+            </li>
           </ul>
         </nav>
 

@@ -1,0 +1,109 @@
+.featuredPartnerSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.partnerBox {
+  background: white;
+  border-radius: 16px;
+  padding: 60px 50px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.badge {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #FF6B6B 0%, #EE5A52 100%);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.partnerBox h2 {
+  color: #2C3E50;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.partnerBox h3 {
+  color: #4ECDC4;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.description {
+  color: #6c757d;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featureList li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #495057;
+  margin-bottom: 15px;
+  gap: 12px;
+}
+
+.checkIcon {
+  color: #4ECDC4;
+  flex-shrink: 0;
+}
+
+.ctaContainer {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .featuredPartnerSection {
+    padding: 60px 0;
+  }
+
+  .partnerBox {
+    padding: 50px 30px;
+  }
+
+  .partnerBox h2 {
+    font-size: 28px;
+  }
+
+  .partnerBox h3 {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .featureList li {
+    font-size: 16px;
+    justify-content: flex-start;
+  }
+}

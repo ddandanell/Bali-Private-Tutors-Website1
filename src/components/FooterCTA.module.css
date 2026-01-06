@@ -1,0 +1,27 @@
+.footerCTA {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 50px 40px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 60px 0 40px 0;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+}
+
+.footerCTA p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footerCTA {
+    padding: 40px 20px;
+    margin: 40px 0 30px 0;
+  }
+
+  .footerCTA p {
+    font-size: 18px;
+  }
+}
