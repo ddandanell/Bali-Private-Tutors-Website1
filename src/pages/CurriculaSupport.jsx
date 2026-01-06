@@ -27,7 +27,7 @@ const CurriculaSupport = () => {
                     <h2 className={styles.sectionTitle}>Global Standards, Personalized Delivery</h2>
                     <div className={styles.divider}></div>
                     <p className={styles.introText}>
-                        Expat families in Bali come from all corners of the globe, bringing with them a diverse array of educational backgrounds and future aspirations. Whether your child is preparing to re-enter the British boardroom schools, aiming for an Ivy League university in the US, or simply maintaining their grade level in the Australian system, we have the specialized knowledge to support them.
+                        Expat families in Bali come from all corners of the globe, bringing with them a diverse array of educational backgrounds and future aspirations. Whether your child is preparing to re-enter the British boardroom schools, aiming for an Ivy League university in the US, or simply maintaining their grade level in the Australian system, we have the specialized knowledge to support them. Explore our <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>IB and international curriculum tutoring in Bali</a>.
                     </p>
                     <p>
                         We don't just "teach subjects"; we understand the specific assessment objectives, mark schemes, and inquiry-based learning models of the world's leading curricula. Our tutors include former IB examiners, certified teachers from the UK and Australia, and homeschooling veterans who have successfully guided hundreds of students.
@@ -59,6 +59,7 @@ const CurriculaSupport = () => {
                                 <li><strong>Extended Essay (EE):</strong> Mentoring the research process and structuring the 4,000-word academic paper.</li>
                                 <li><strong>Internal Assessments (IAs):</strong> Reviewing drafts and offering feedback on criteria.</li>
                             </ul>
+                            <p style={{ marginTop: '10px' }}>Our expertise in <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>IB Diploma tutoring in Bali</a> ensures students achieve their full potential.</p>
                         </div>
                     </div>
                 </div>
@@ -72,7 +73,7 @@ const CurriculaSupport = () => {
                         <div className={styles.stepNumber} style={{ backgroundColor: 'var(--color-midnight)' }}>1</div>
                         <div>
                             <h3>IGCSE / O-Levels</h3>
-                            <p>The International General Certificate of Secondary Education (IGCSE) is the world's most popular international qualification for 14-16 year olds. It is content-heavy and exam-focused. Our tutors are experts in the syllabi for Cambridge (CIE) and Edexcel. We provide intensive "crash courses" for revision, past paper practice sessions to master exam technique, and long-term support to ensure A* grades in core subjects like Math, English, and Sciences.</p>
+                            <p>The International General Certificate of Secondary Education (IGCSE) is the world's most popular international qualification for 14-16 year olds. It is content-heavy and exam-focused. Our tutors are experts in the syllabi for Cambridge (CIE) and Edexcel. We provide intensive "crash courses" for revision, past paper practice sessions to master exam technique, and long-term support to ensure A* grades in core subjects like Math, English, and Sciences. Get expert <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>IGCSE and A-Level tutoring in Bali</a> from experienced educators.</p>
                         </div>
                     </div>
                     <div className={styles.step}>
@@ -114,7 +115,7 @@ const CurriculaSupport = () => {
                     <h2 className={styles.sectionTitle}>Homeschooling & Unschooling Support</h2>
                     <div className={styles.introText} style={{ textAlign: 'left' }}>
                         <p style={{ marginBottom: '20px' }}>
-                            Bali is a haven for homeschooling families. However, being the sole educator for your child can be exhausting. We offer a hybrid model:
+                            Bali is a haven for homeschooling families. However, being the sole educator for your child can be exhausting. We offer a hybrid model with comprehensive <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>homeschooling support in Bali</a>:
                         </p>
                         <ul style={{ listStyle: 'disc', paddingLeft: '20px', marginBottom: '20px' }}>
                             <li><strong>Curriculum Design:</strong> We help you select and structure a homeschool curriculum that fits your lifestyle.</li>

@@ -27,7 +27,7 @@ const Locations = () => {
                     <h2 className={styles.sectionTitle}>Island-Wide Educational Support</h2>
                     <div className={styles.divider}></div>
                     <p className={styles.introText}>
-                        Bali is an island of diverse neighborhoods, each with its own unique character and logistical challenges. Traffic can be unpredictable, and finding reliable services that come to your doorstep is a luxury. At Bali Private Tutors, we have built a decentralized network of educators stationed across the island's most popular expat hubs.
+                        Bali is an island of diverse neighborhoods, each with its own unique character and logistical challenges. Traffic can be unpredictable, and finding reliable services that come to your doorstep is a luxury. At Bali Private Tutors, we have built a decentralized network of educators stationed across the island's most popular expat hubs. For professional <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>private tutoring services in Bali</a>, we bring education directly to your villa.
                     </p>
                     <p>
                         Whether you are staying in a beachfront villa in Sanur, a digital nomad guesthouse in Canggu, or a jungle retreat in Ubud, we ensure that a qualified tutor is never far away. This localization minimizes travel fees and ensures that your tutor understands the specific vibe and resources of your neighborhood.
@@ -50,7 +50,7 @@ const Locations = () => {
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Popular Subjects</h3>
-                            <p>We see a high demand here for "Holiday Boost" packages—intensive English or Math catch-up sessions for children on vacation. Language lessons (Indonesian or French) are also popular for adults lounging by the pool.</p>
+                            <p>We see a high demand here for "Holiday Boost" packages—intensive English or Math catch-up sessions for children on vacation. Language lessons (Indonesian or French) are also popular for adults lounging by the pool. Discover <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>private tutoring in Seminyak</a> tailored to your family's needs.</p>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const Locations = () => {
                         <div className={styles.stepNumber} style={{ backgroundColor: 'var(--color-lime)' }}>H</div>
                         <div>
                             <h3>Homeschooling Hubs</h3>
-                            <p>Canggu is full of coworking spaces and family clubs (like Parklife). We often facilitate small group tutoring pods here, where 3-4 homeschooled children meet to study Science or History together in a social setting.</p>
+                            <p>Canggu is full of coworking spaces and family clubs (like Parklife). We often facilitate small group tutoring pods here, where 3-4 homeschooled children meet to study Science or History together in a social setting. Find expert <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>tutors in Canggu</a> for your educational needs.</p>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ const Locations = () => {
                         </div>
                         <div className={styles.reasonCard} style={{ backgroundColor: 'var(--color-pale-turquoise)' }}>
                             <h3>Creative Learning</h3>
-                            <p>Our Ubud tutors are often artists and environmentalists themselves. Lessons here might take place in a bamboo shala or overlooking a ravine, integrating art and biology into the curriculum.</p>
+                            <p>Our Ubud tutors are often artists and environmentalists themselves. Lessons here might take place in a bamboo shala or overlooking a ravine, integrating art and biology into the curriculum. Experience unique <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>private tutoring in Ubud</a> that blends education with nature.</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const Locations = () => {
                         <div className={styles.stepNumber} style={{ backgroundColor: 'var(--color-midnight)' }}>2</div>
                         <div>
                             <h3>IB Diploma Focus</h3>
-                            <p>Because of the proximity to BIS, we have a strong team of IB Diploma specialists based in Sanur. They understand the high pressure of the DP years and offer intensive support for final exams and Internal Assessments.</p>
+                            <p>Because of the proximity to BIS, we have a strong team of IB Diploma specialists based in Sanur. They understand the high pressure of the DP years and offer intensive support for final exams and Internal Assessments. Connect with experienced <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>IB tutors in Sanur</a> for comprehensive support.</p>
                         </div>
                     </div>
                 </div>

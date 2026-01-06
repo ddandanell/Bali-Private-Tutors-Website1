@@ -39,6 +39,7 @@ const Footer = () => {
                         <li><a href="/curricula-support">Curricula Support</a></li>
                         <li><a href="/locations">Locations</a></li>
                         <li><a href="/contact">Book a Consultation</a></li>
+                        <li><a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer">Private Tutoring Services</a></li>
                     </ul>
                 </div>
 

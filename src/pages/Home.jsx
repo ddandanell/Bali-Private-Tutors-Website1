@@ -48,7 +48,7 @@ const Home = () => {
                         Bali has transformed from a holiday destination into a global hub for digital nomad families and long-term expats. With this shift, the demand for high-quality, international-standard education has skyrocketed. At <strong>Bali Private Tutors</strong>, we bridge the gap between traditional schooling and personalized academic excellence, ensuring your child thrives in their new environment.
                     </p>
                     <p>
-                        Whether you are visiting for a month or settling down for a year, our network of qualified, background-checked educators brings the classroom to your villa. We specialize in international curricula (IB, IGCSE, UK, US, Australian) and offer bespoke language programs to help children integrate into the local culture.
+                        Whether you are visiting for a month or settling down for a year, our network of qualified, background-checked educators brings the classroom to your villa. We specialize in international curricula (IB, IGCSE, UK, US, Australian) and offer bespoke language programs to help children integrate into the local culture. For comprehensive <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>private tutoring in Bali</a>, we provide tailored educational support across all subjects and age groups.
                     </p>
                 </div>
             </section>
@@ -60,7 +60,7 @@ const Home = () => {
                     <div className={styles.reasonsGrid}>
                         <div className={styles.reasonCard}>
                             <h3>High Cost of International Schools</h3>
-                            <p>For many expat families, the sticker shock of international schooling in Bali is a significant hurdle. Top-tier institutions often charge tuition fees comparable to those in Western countries, with additional capital levies, enrollment fees, and building funds that can amount to thousands of dollars annually. Furthermore, these schools often have long waiting lists. Private tutoring offers a flexible, cost-effective alternative. By hiring a dedicated tutor, you can provide your child with focused, one-on-one attention that matches—or exceeds—the academic rigor of full-time schooling, without the exorbitant overhead costs.</p>
+                            <p>For many expat families, the sticker shock of international schooling in Bali is a significant hurdle. Top-tier institutions often charge tuition fees comparable to those in Western countries, with additional capital levies, enrollment fees, and building funds that can amount to thousands of dollars annually. Furthermore, these schools often have long waiting lists. <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>Private tutoring in Bali</a> offers a flexible, cost-effective alternative. By hiring a dedicated tutor, you can provide your child with focused, one-on-one attention that matches—or exceeds—the academic rigor of full-time schooling, without the exorbitant overhead costs.</p>
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Language & Curriculum Barriers</h3>
@@ -72,7 +72,7 @@ const Home = () => {
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Customized Support for Neurodiversity</h3>
-                            <p>International schools in Bali vary widely in their capacity to support students with learning differences such as Dyslexia, ADHD, or Autism Spectrum Disorder. Large class sizes often mean that individual needs are overlooked. Our private tutors are experienced in differentiating instruction. We create a safe, psychological space where your child feels understood and supported, using multi-sensory teaching methods that cater to their unique learning profile.</p>
+                            <p>International schools in Bali vary widely in their capacity to support students with learning differences such as Dyslexia, ADHD, or Autism Spectrum Disorder. Large class sizes often mean that individual needs are overlooked. Our <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', fontWeight: '600' }}>private tutors in Bali</a> are experienced in differentiating instruction. We create a safe, psychological space where your child feels understood and supported, using multi-sensory teaching methods that cater to their unique learning profile.</p>
                         </div>
                     </div>
                 </div>
