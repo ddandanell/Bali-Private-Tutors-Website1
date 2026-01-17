@@ -19,12 +19,8 @@ import OnlineTutoring from './pages/OnlineTutoring';
 import InternationalSchoolTutoring from './pages/InternationalSchoolTutoring';
 import SATPrep from './pages/SATPrep';
 import APTutoring from './pages/APTutoring';
-import IGCSETutoring from './pages/IGCSETutoring';
-import OnlineTutoring from './pages/OnlineTutoring';
 import MathTutor from './pages/MathTutor';
-import EnglishTutoring from './pages/EnglishTutoring';
 import PrivateTutoringServices from './pages/PrivateTutoringServices';
-import HomeschoolingSupport from './pages/HomeschoolingSupport';
 
 function App() {
   return (
@@ -46,7 +42,6 @@ function App() {
         <Route path="/a-level-tutoring" element={<ALevelTutoring />} />
         <Route path="/online-tutoring" element={<OnlineTutoring />} />
         <Route path="/contact" element={<Home />} /> {/* Just linking back to Home contact for now */}
-        <Route path="/contact" element={<Home />} />
         
         {/* New Landing Pages */}
         <Route path="/ib-tutoring-bali" element={<IBTutoring />} />

@@ -182,7 +182,7 @@ const Home = () => {
                     />
                     <FAQItem
                         question="Do you offer online tutoring if we leave Bali?"
-                        answer="Yes! Many of our families continue with their favorite tutor online after they return home or move to their next destination. This ensures continuity in your child's education and allows them to maintain the bond they've built with their mentor."
+                        answer="Yes! Many of our families continue with their favorite tutor online after they return home or move to their next destination. This ensures continuity in your child's education and allows them to maintain the bond they've built with their mentor. Whether you need support in Bali or online tutoring from anywhere in the world, services like Private Tutoring Bali at https://privatetutoringbali.com/ offer both in-person and virtual learning options."
                     />
                 </div>
             </section>

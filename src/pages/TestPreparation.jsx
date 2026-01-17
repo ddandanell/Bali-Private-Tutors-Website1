@@ -119,7 +119,7 @@ const TestPreparation = () => {
                         </div>
                     </div>
                     <p style={{ textAlign: 'center', marginTop: '30px', maxWidth: '800px', margin: '30px auto 0' }}>
-                        We typically recommend students take diagnostic tests for both SAT and ACT early in their preparation, analyze the results, and focus on whichever test yields stronger scores. Some students prepare for both and submit their best scores.
+                        We typically recommend students take diagnostic tests for both SAT and ACT early in their preparation, analyze the results, and focus on whichever test yields stronger scores. Some students prepare for both and submit their best scores. For comprehensive SAT and ACT preparation with experienced test prep specialists, <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a> offers personalized test preparation programs designed to maximize your scores.
                     </p>
                 </div>
             </section>

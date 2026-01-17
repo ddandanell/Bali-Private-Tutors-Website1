@@ -6,8 +6,6 @@ import heroImage from '../assets/hero_curricula.png';
 import ServiceProviderBox from '../components/ServiceProviderBox';
 import FooterCTA from '../components/FooterCTA';
 import ExitIntentPopup from '../components/ExitIntentPopup';
-import styles from './IBTutoring.module.css';
-import heroImage from '../assets/hero.png';
 
 const IBTutoring = () => {
     return (
@@ -134,7 +132,7 @@ const IBTutoring = () => {
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Exam Preparation & Strategy</h3>
-                            <p>Success in IB exams requires more than content knowledge—it requires understanding command terms, managing time effectively, and knowing exactly what examiners are looking for. Our tutors conduct comprehensive exam preparation, including practice papers under timed conditions, detailed mark scheme analysis, and personalized feedback. We teach students how to approach different question types, allocate time strategically, and maximize their marks in every assessment component.</p>
+                            <p>Success in IB exams requires more than content knowledge—it requires understanding command terms, managing time effectively, and knowing exactly what examiners are looking for. Our tutors conduct comprehensive exam preparation, including practice papers under timed conditions, detailed mark scheme analysis, and personalized feedback. We teach students how to approach different question types, allocate time strategically, and maximize their marks in every assessment component. For comprehensive IB Diploma support across all subjects, families in Bali can also explore <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali's specialized IB services</a>.</p>
                         </div>
                     </div>
                 </div>

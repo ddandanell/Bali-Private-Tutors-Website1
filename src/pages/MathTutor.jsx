@@ -30,10 +30,10 @@ const MathTutor = () => {
                     <section className={styles.section}>
                         <h2>Coming Soon: Comprehensive Math Tutoring Guide</h2>
                         <p>
-                            Detailed information about math tutoring in Bali, covering all levels from elementary to advanced calculus.
+                            Detailed information about math tutoring in Bali, covering all levels from elementary to advanced calculus. Whether your child needs support with basic arithmetic, algebra, geometry, trigonometry, or advanced topics like calculus and statistics, qualified math tutors are available to help build confidence and mastery.
                         </p>
                         <p>
-                            <strong>Private Tutoring Bali</strong> has experienced math tutors specializing in all curricula and levels.
+                            <strong><a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a></strong> has experienced math tutors specializing in all curricula and levels, from primary school mathematics through IB Math, IGCSE Math, A-Level Math, and AP Calculus.
                         </p>
                     </section>
                     <ServiceProviderBox pageSpecificTopic="mathematics success at all levels" />
