@@ -6,8 +6,6 @@ import heroImage from '../assets/hero_subjects.png';
 import ServiceProviderBox from '../components/ServiceProviderBox';
 import FooterCTA from '../components/FooterCTA';
 import ExitIntentPopup from '../components/ExitIntentPopup';
-import styles from './PlaceholderPage.module.css';
-import heroImage from '../assets/hero.png';
 
 const IGCSETutoring = () => {
     return (
@@ -229,7 +227,7 @@ const IGCSETutoring = () => {
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Support for Distance & Homeschool Students</h3>
-                            <p>Many families in Bali are homeschooling or enrolled in distance learning programmes for their IGCSEs. We provide the structured teaching, accountability, and feedback that these students need. We can coordinate with online schools, mark coursework, conduct practical assessments, and ensure students are fully prepared for their exams.</p>
+                            <p>Many families in Bali are homeschooling or enrolled in distance learning programmes for their IGCSEs. We provide the structured teaching, accountability, and feedback that these students need. We can coordinate with online schools, mark coursework, conduct practical assessments, and ensure students are fully prepared for their exams. For personalized IGCSE tutoring that adapts to your family's unique learning situation, <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a> offers flexible support for all Cambridge IGCSE subjects.</p>
                         </div>
                     </div>
                 </div>

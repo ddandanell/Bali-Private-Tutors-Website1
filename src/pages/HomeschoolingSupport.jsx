@@ -2,11 +2,10 @@ import React from 'react';
 import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css';
+import heroImage from '../assets/hero.png';
 import ServiceProviderBox from '../components/ServiceProviderBox';
 import FooterCTA from '../components/FooterCTA';
 import ExitIntentPopup from '../components/ExitIntentPopup';
-import styles from './PlaceholderPage.module.css';
-import heroImage from '../assets/hero.png';
 
 const HomeschoolingSupport = () => {
     return (
@@ -52,7 +51,7 @@ const HomeschoolingSupport = () => {
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Curriculum Planning & Guidance</h3>
-                            <p>New to homeschooling? Feeling overwhelmed by curriculum choices? Our experienced homeschool consultants help you select appropriate curricula, design year plans, set learning goals, and create realistic schedules. We can recommend resources for different learning styles, suggest field trip ideas that leverage Bali's unique environment, and help you navigate administrative requirements. If you're using a boxed curriculum like Sonlight, Oak Meadow, or Abeka, we can help you implement it effectively. If you're creating your own eclectic program, we can help you ensure it's comprehensive and age-appropriate.</p>
+                            <p>New to homeschooling? Feeling overwhelmed by curriculum choices? Our experienced homeschool consultants help you select appropriate curricula, design year plans, set learning goals, and create realistic schedules. We can recommend resources for different learning styles, suggest field trip ideas that leverage Bali's unique environment, and help you navigate administrative requirements. If you're using a boxed curriculum like Sonlight, Oak Meadow, or Abeka, we can help you implement it effectively. If you're creating your own eclectic program, we can help you ensure it's comprehensive and age-appropriate. For professional homeschooling support and curriculum guidance tailored to your family's philosophy, <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a> offers experienced educational consultants and subject specialists.</p>
                         </div>
                         <div className={styles.reasonCard}>
                             <h3>Complete Co-Teaching Services</h3>

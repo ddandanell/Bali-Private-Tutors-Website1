@@ -96,7 +96,7 @@ const Locations = () => {
                         </div>
                         <div className={styles.reasonCard} style={{ backgroundColor: 'var(--color-pale-turquoise)' }}>
                             <h3>Green School Support</h3>
-                            <p>We provide specific academic tutoring to supplement the holistic curriculum of the Green School. While the school excels in environmental leadership, some parents hire our tutors to ensure their children remain competitive in traditional math and sciences (SAT/ACT prep) for university applications.</p>
+                            <p>We provide specific academic tutoring to supplement the holistic curriculum of the Green School. While the school excels in environmental leadership, some parents hire our tutors to ensure their children remain competitive in traditional math and sciences (SAT/ACT prep) for university applications. For comprehensive academic tutoring support in the Ubud area, including test preparation and curriculum-specific help, <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a> provides experienced educators throughout the region.</p>
                         </div>
                         <div className={styles.reasonCard} style={{ backgroundColor: 'var(--color-pale-turquoise)' }}>
                             <h3>Creative Learning</h3>

@@ -6,8 +6,6 @@ import heroImage from '../assets/hero_subjects.png';
 import ServiceProviderBox from '../components/ServiceProviderBox';
 import FooterCTA from '../components/FooterCTA';
 import ExitIntentPopup from '../components/ExitIntentPopup';
-import styles from './PlaceholderPage.module.css';
-import heroImage from '../assets/hero.png';
 
 const EnglishTutoring = () => {
     return (
@@ -158,7 +156,7 @@ const EnglishTutoring = () => {
                         <strong>IELTS & TOEFL Preparation:</strong> For students requiring English proficiency certifications for university entrance or immigration, we provide comprehensive test preparation. We teach specific strategies for each section (reading, writing, listening, speaking), conduct practice tests, provide feedback on writing and speaking, and build the test-taking skills and confidence needed for high scores.
                     </p>
                     <p style={{ marginTop: '20px' }}>
-                        <strong>IGCSE English as a Second Language:</strong> This Cambridge qualification is specifically designed for non-native English speakers. We prepare students for the exam format, teach the specific task types (reading comprehension, email writing, summary, essay, listening comprehension, speaking), and develop the language proficiency and exam technique needed to achieve top grades.
+                        <strong>IGCSE English as a Second Language:</strong> This Cambridge qualification is specifically designed for non-native English speakers. We prepare students for the exam format, teach the specific task types (reading comprehension, email writing, summary, essay, listening comprehension, speaking), and develop the language proficiency and exam technique needed to achieve top grades. For comprehensive English language support tailored to your child's needs, families in Bali can connect with qualified tutors through <a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a>.
                     </p>
                 </div>
             </section>
@@ -218,35 +216,6 @@ const EnglishTutoring = () => {
                     <a href="/#contact" className={styles.ctaButton}>Find Your English Tutor</a>
                 </div>
             </section>
-                title="English Tutoring Bali - Expert English Language & Literature Support [2026]"
-                description="Professional English tutoring in Bali. Support for English literature, creative writing, EAL/ESL, academic writing, and exam prep."
-                keywords="English tutoring Bali, English tutor, literature support Bali"
-                path="/english-tutoring-bali"
-            />
-            <ExitIntentPopup />
-            <Hero
-                title="English Tutoring in Bali: Language & Literature Excellence"
-                subtitle="Expert English support for all levels and needs"
-                image={heroImage}
-                ctaText="Find Your English Tutor"
-                ctaLink="https://privatetutoringbali.com/"
-                external={true}
-            />
-            <article className={styles.article}>
-                <div className="container">
-                    <section className={styles.section}>
-                        <h2>Coming Soon: Complete English Tutoring Guide</h2>
-                        <p>
-                            Comprehensive information about English tutoring in Bali, covering literature, writing, and language support.
-                        </p>
-                        <p>
-                            <strong>Private Tutoring Bali</strong> offers expert English tutoring with native and near-native speakers.
-                        </p>
-                    </section>
-                    <ServiceProviderBox pageSpecificTopic="English language and literature excellence" />
-                    <FooterCTA />
-                </div>
-            </article>
         </>
     );
 };

@@ -30,10 +30,10 @@ const SATPrep = () => {
                     <section className={styles.section}>
                         <h2>Coming Soon: Complete SAT Preparation Guide</h2>
                         <p>
-                            This page will provide comprehensive information about SAT preparation in Bali, including test strategies, study schedules, and expert tutoring options.
+                            This page will provide comprehensive information about SAT preparation in Bali, including test strategies, study schedules, and expert tutoring options. The SAT is a crucial standardized test for US college admissions, and proper preparation can significantly improve your scores and scholarship opportunities.
                         </p>
                         <p>
-                            <strong>Private Tutoring Bali</strong> offers specialized SAT preparation with experienced tutors who understand the test inside and out.
+                            <strong><a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a></strong> offers specialized SAT preparation with experienced tutors who understand the test inside and out, helping students achieve their target scores for competitive college admissions.
                         </p>
                     </section>
                     <ServiceProviderBox pageSpecificTopic="SAT preparation including Math, Evidence-Based Reading, and Writing sections" />

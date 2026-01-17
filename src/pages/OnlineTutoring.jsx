@@ -2,11 +2,10 @@ import React from 'react';
 import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import styles from './Home.module.css';
+import heroImage from '../assets/hero.png';
 import ServiceProviderBox from '../components/ServiceProviderBox';
 import FooterCTA from '../components/FooterCTA';
 import ExitIntentPopup from '../components/ExitIntentPopup';
-import styles from './PlaceholderPage.module.css';
-import heroImage from '../assets/hero.png';
 
 const OnlineTutoring = () => {
     return (

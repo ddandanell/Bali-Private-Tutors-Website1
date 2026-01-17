@@ -30,10 +30,10 @@ const APTutoring = () => {
                     <section className={styles.section}>
                         <h2>Coming Soon: Comprehensive AP Tutoring Guide</h2>
                         <p>
-                            This page will cover all Advanced Placement subjects, exam strategies, and tutoring options in Bali.
+                            This page will cover all Advanced Placement subjects, exam strategies, and tutoring options in Bali. AP courses offer college-level curriculum and the opportunity to earn college credit while still in high school, making them valuable for competitive college applications and reducing future tuition costs.
                         </p>
                         <p>
-                            <strong>Private Tutoring Bali</strong> provides expert AP tutoring across all subjects with qualified teachers.
+                            <strong><a href="https://privatetutoringbali.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-turquoise)', textDecoration: 'underline' }}>Private Tutoring Bali</a></strong> provides expert AP tutoring across all subjects with qualified teachers who can help students achieve scores of 4 or 5 on their AP examinations.
                         </p>
                     </section>
                     <ServiceProviderBox pageSpecificTopic="Advanced Placement success in all AP subjects" />
